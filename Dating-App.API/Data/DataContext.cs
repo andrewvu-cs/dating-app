@@ -9,5 +9,6 @@ namespace Dating_App.API.Data
 
         // Values represents the table name when we scaffold our db
         public DbSet<Value> Values { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
