@@ -20,7 +20,7 @@ export class ValueComponent implements OnInit {
 
   getValues() {
     // Returns an observable, got to subscribe
-    this.http.get('http://localhost:5000/api/values/1').subscribe(response => {
+    this.http.get('http://localhost:5000/api/values/').subscribe(response => {
       this.values = response;
     }, error => {
       console.log(error);
