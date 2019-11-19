@@ -72,8 +72,8 @@ namespace Dating_App.API
 
             app.UseAuthentication();
             app.UseAuthorization();
-
             app.UseCors(x => x.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+
 
             // allows our controllers or our end points in our controllers to be mapped into our middleware
             app.UseEndpoints(endpoints =>

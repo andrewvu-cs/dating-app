@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace DatingApp.API.Controllers
 {
     // Anything in square brackets is an attribute
-    // http://localhost:5000/api/values
+
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
